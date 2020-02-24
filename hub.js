@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 const { getYArgs } = require('./lib/core/yargs')
 const yargs = getYArgs();
 const init = require('./lib/commands/init');
@@ -7,7 +7,8 @@ const crud = require('./lib/commands/crud-generator');
 const helpers = require('./lib/helpers');
 helpers.view.teaser();
 const path = require("path");
-
+console.log(yargs.argv);
+return 0;
 const cli = yargs
     .help()
     .version()
