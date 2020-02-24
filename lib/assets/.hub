@@ -1,0 +1,7 @@
+const path = require('path');
+
+module.exports = {
+'controllers': path.resolve('app', 'controllers'),
+'routes': path.resolve('app', 'routes'),
+'model': path.resolve('', 'models')
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hub": "node ./hub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqas740/hub.git"
+  },
+  "author": "Waqas iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waqas740/hub/issues"
+  },
+  "homepage": "https://github.com/waqas740/hub#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "js-beautify": "^1.10.3",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "pluralize": "^8.0.0",
+    "prompt": "^1.0.0",
+    "yargs": "^15.1.0"
+  }
+}

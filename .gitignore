@@ -1,0 +1,10 @@
+/node_modules/
+/improvement
+/bower_components/
+/app/contact-search/output/
+/app/contact-search/input/
+npm-debug.log
+/npm-debug.log.*
+.idea
+/logs/
+/bin/
