@@ -6,9 +6,6 @@ const touch = require('./lib/commands/hub-file');
 const crud = require('./lib/commands/crud-generator');
 const helpers = require('./lib/helpers');
 helpers.view.teaser();
-const path = require("path");
-console.log(yargs.argv);
-return 0;
 const cli = yargs
     .help()
     .version()
