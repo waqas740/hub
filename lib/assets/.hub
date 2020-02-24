@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-'controllers': path.resolve('app', 'controllers'),
-'routes': path.resolve('app', 'routes'),
+'controllers': path.resolve('', 'controllers'),
+'routes': path.resolve('', 'routes'),
 'model': path.resolve('', 'models')
 }
