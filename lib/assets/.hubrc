@@ -3,5 +3,5 @@ const path = require('path');
 module.exports = {
 'controllers': path.resolve('', 'controllers'),
 'routes': path.resolve('', 'routes'),
-'model': path.resolve('', 'models')
+'models': path.resolve('', 'models')
 }

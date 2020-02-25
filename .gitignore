@@ -1,8 +1,11 @@
 /node_modules/
 /improvement
 /bower_components/
-/app/contact-search/output/
-/app/contact-search/input/
+/app/
+/controllers
+/routes
+/models
+.hubrc
 npm-debug.log
 /npm-debug.log.*
 .idea
