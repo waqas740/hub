@@ -14,7 +14,7 @@
   "author": "Waqas iqbal",
   "license": "ISC",
   "bin": {
-    "hub": "./hub.js"
+    "hub": "./hub"
   },
   "bugs": {
     "url": "https://github.com/waqas740/hub/issues"
