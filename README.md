@@ -9,7 +9,7 @@
 $ npm install -g  hub
 ```
 
-###Commands
+## Commands
 
 commands  | Description
 ------------- | -------------
