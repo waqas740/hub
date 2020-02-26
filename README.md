@@ -19,8 +19,8 @@ hub init:controller  |  Create controllers folder in your application
 hub init:route |  Create routes folder in your application
 hub init:model |  Create models folder in your application
 hub generate:rc |  Create controllers & routes file with baisc crud operations.This command requires name(the name of the model) option. e.g `hub generate:rc  --name=User`
-hub generate:route |   Create routes file with baisc crud operations..This command requires name(the name of the route & controller) option. e.g `hub generate:route  --name=User`
-hub generate:controller |  Create controllers  file with baisc crud operations.This command requires name(the name of the controller) option. e.g `hub generate:controller  --name=User`
+hub generate:route       |   Create routes file with baisc crud operations..This command requires name(the name of the route & controller) option. e.g `hub generate:route  --name=User`
+hub generate:controller       |  Create controllers  file with baisc crud operations.This command requires name(the name of the controller) option. e.g `hub generate:controller  --name=User`
 
 ## Commands Demo
 > **hub touch**
@@ -38,7 +38,7 @@ module.exports = {
 ```
 > **hub generate:rc --name=User**
 
-This command will create two file one will be route file in routes folder with name ```user-route.js``` and second one will be controllers file in controller folder with name  ```user-controller.js``` in your application.
+This command will create two file one will be route file in routes folder with name ```user-route.js``` and second one will be controllers file in controllers folder with name  ```user-controller.js``` in your application.
 
 user-route.js code will be like
 ```bash
