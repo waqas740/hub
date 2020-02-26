@@ -1,6 +1,6 @@
 ## HUB
 
-**Genearte Basic CRUD Operation for Express app with sequelize ORM**
+**Generate Basic CRUD Operations for Express app with sequelize ORM**
 
 
 ## Installation
