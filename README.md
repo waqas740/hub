@@ -2,25 +2,30 @@
 
 **Generate Basic CRUD Operations for Express app with sequelize ORM**
 
+## Table of Contents
+- [Installation](#installation)
+- [Commands](#commands)
+- [Commands Demo]()
 
 ## Installation
 
-```sh
+Make sure you have [Sequelize](https://sequelize.org) installed. Then install the hub
+
+```bash
 $ npm install -g  hub
 ```
-
 ## Commands
 
 commands  | Description
 ------------- | -------------
-hub touch  | Create hub file in which you can set controller, route & model folder path.
-hub init |  Create controllers,routes,models folder in your application
-hub init:controller  |  Create controllers folder in your application
-hub init:route |  Create routes folder in your application
-hub init:model |  Create models folder in your application
-hub generate:rc |  Create controllers & routes file with baisc crud operations.This command requires name(the name of the model) option. e.g `hub generate:rc  --name=User`
-hub generate:route       |   Create routes file with baisc crud operations..This command requires name(the name of the route & controller) option. e.g `hub generate:route  --name=User`
-hub generate:controller       |  Create controllers  file with baisc crud operations.This command requires name(the name of the controller) option. e.g `hub generate:controller  --name=User`
+hub touch  | Initializes .hub file in which you can set path of controller, route & model folder.
+hub init |  Initializes controllers,routes & models folder in your application.
+hub init:controller  |  Initializes controllers folder in your application
+hub init:route |  Initializes routes folder in your application
+hub init:model |  Initializes models folder in your application
+hub generate:rc |  Generates new controller & route files with baisc crud operations.This command requires name(the name of the model) option. e.g `hub generate:rc --name=User`
+hub generate:route       |   Generates new route file with baisc crud operations..This command requires name(the name of the route & controller) option. e.g `hub generate:route --name=User`
+hub generate:controller       |  Generates new controller  file with baisc crud operations.This command requires name(the name of the controller) option. e.g `hub generate:controller --name=User`
 
 ## Commands Demo
 > **hub touch**
