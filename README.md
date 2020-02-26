@@ -1,4 +1,4 @@
-##HUB
+#HUB
 
 **Genearte Basic CRUD Operation for Express app with sequelize ORM**
 
