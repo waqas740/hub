@@ -11,7 +11,12 @@ const cli = yargs
     .version()
     .command('touch', 'create .hub file', touch)
     .command('init', 'Initializes Folders', init)
-    .command("crud", 'Generates crud operation', crud)
+    .command('init:controller', 'Initializes controllers Folder', init)
+    .command('init:route', 'Initializes routes Folder', init)
+    .command('init:model', 'Initializes models Folder', init)
+    .command(["generate:rc", "generate:RC"], 'Generates controller & route file', crud)
+    .command(["generate:controller", "generate:Controller"], 'Generates controller file', crud)
+    .command(["generate:route", "generate:Route"], 'Generates route file', crud)
     .wrap(yargs.terminalWidth())
     .strict();
 

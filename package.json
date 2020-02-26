@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hub": "node ./hub.js"
+    "hub": "node ./hub"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "author": "Waqas iqbal",
   "license": "ISC",
   "bin": {
-    "hub": "./hub.js"
+    "hub": "./hub"
   },
   "bugs": {
     "url": "https://github.com/waqas740/hub/issues"
