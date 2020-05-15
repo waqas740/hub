@@ -19,7 +19,7 @@ $ npm install -g  hub
 commands  | Description
 ------------- | -------------
 hub touch  | Initializes .hub file in which you can set path of controller, route & model folder.
-hub init |  Initializes controllers,routes & models folder in your application.
+hub init |  Initializes Application setup.
 hub init:controller  |  Initializes controllers folder in your application
 hub init:route |  Initializes routes folder in your application
 hub init:model |  Initializes models folder in your application
