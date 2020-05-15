@@ -9,8 +9,6 @@
 
 ## Installation
 
-Make sure you have [Sequelize](https://sequelize.org) installed. Then install the hub
-
 ```bash
 $ npm install -g  hub
 or
@@ -20,8 +18,8 @@ $ npm install -g git+https://github.com/waqas740/hub.git#master
 
 commands  | Description
 ------------- | -------------
-hub touch  | Initializes .hub file in which you can set path of controller, route & model folder.
 hub init |  Initializes Application setup.
+hub touch  | Initializes .hub file in which you can set path of controller, route & model folder.
 hub init:controller  |  Initializes controllers folder in your application
 hub init:route |  Initializes routes folder in your application
 hub init:model |  Initializes models folder in your application
