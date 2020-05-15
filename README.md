@@ -13,6 +13,8 @@ Make sure you have [Sequelize](https://sequelize.org) installed. Then install th
 
 ```bash
 $ npm install -g  hub
+or
+$ npm install -g git+https://github.com/waqas740/hub.git#master
 ```
 ## Commands
 
